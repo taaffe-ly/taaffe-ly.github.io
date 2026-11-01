@@ -279,7 +279,7 @@ h3 { font-size: 20px; margin-bottom: 8px; }
 }
 .to-top.show { opacity: 1; pointer-events: auto; }
 
-/* ===== الصور: تظهر الصورة إن وُجدت في assets/img وإلا يظهر تدرّج لوني ===== */
+/* ===== الصور: تظهر الصورة إن وُجدت بجانب ملفات الموقع وإلا يظهر تدرّج لوني ===== */
 .photo {
   border-radius: var(--radius); min-height: 220px; position: relative; overflow: hidden;
   background-size: cover; background-position: center; background-color: var(--green-700);
@@ -291,7 +291,7 @@ h3 { font-size: 20px; margin-bottom: 8px; }
 .hero--photo {
   background:
     linear-gradient(135deg, rgba(15,61,46,.94), rgba(23,105,76,.82)),
-    url(../img/hero.jpg) center/cover, var(--green-900);
+    url(hero.jpg) center/cover, var(--green-900);
 }
 .facts { border-top: 3px solid var(--green-700); }
 .facts div { display: grid; grid-template-columns: 120px 1fr; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
